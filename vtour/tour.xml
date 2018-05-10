@@ -72,7 +72,7 @@
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
 	</action>
-	
+	<!-- 	  360图片会自动播放-->
 	<autorotate enabled="true"
 				waittime="2.0"
 				speed="-1.0"
@@ -90,7 +90,7 @@
 		loadscene(get(scene[get(ns)].name), null, MERGE, BLEND(1.5));
 		autorotate.start();
 	</action>
-
+	<!-- 	  360图片会自动播放-->
 
 	
 	<scene name="scene_1" title="1" onstart="" thumburl="panos/1.tiles/thumb.jpg" lat="0.00000000" lng="0.00000000" heading="0.0">
